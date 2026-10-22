@@ -443,7 +443,7 @@ File program utama main.cpp ini digunakan untuk menguji keseluruhan fungsi dan p
 
 ### 1. Buatlah ADT Singly Linked list  di dalam file “Singlylist.h”. Kemudian buat implementasi ADT Singly Linked list pada file “Singlylist.cpp”. Cobalah hasil implementasi ADT pada file “main.cpp”.
 
-## Singlylist.h
+### Singlylist.h
 ```C++
 #ifndef SINGLYLIST_H_INCLUDED
 #define SINGLYLIST_H_INCLUDED
@@ -474,7 +474,7 @@ void insertFirst(List &L, address P);
 #endif
 ```
 
-## Singlylist.cpp
+### Singlylist.cpp
 ```C++
 #include "Singlylist.h"
 
@@ -511,7 +511,7 @@ void insertFirst(List &L, address P) {
 }
 ```
 
-## main.cpp
+### main.cpp
 ```C++
 #include "Singlylist.h"
 
@@ -552,7 +552,7 @@ Program di atas menginisialisasi list kosong lalu memasukkan nilai-nilai secara 
 
 ### 2. Carilah elemen dengan info 8 dengan membuat fungsi baru. fungsi findElm( L : List, x : infotype ) : address.
 
-## Singlylist.h
+### Singlylist.h
 ```C++
 #ifndef SINGLYLIST_H_INCLUDED
 #define SINGLYLIST_H_INCLUDED
@@ -584,7 +584,7 @@ address findElm(List L, infotype x);
 #endif
 ```
 
-## Singlylist.cpp
+### Singlylist.cpp
 ```C++
 #include "Singlylist.h"
 
@@ -632,7 +632,7 @@ address findElm(List L, infotype x) {
 }
 ```
 
-## main.cpp
+### main.cpp
 ```C++
 #include "Singlylist.h"
 
@@ -681,7 +681,7 @@ Fungsi findElm bekerja dengan menelusuri (traversal) setiap node di dalam list m
 
 ### 3. Hitunglah jumlah total info seluruh elemen (9+12+8+0+2=31).
 
-## Singlylist.h
+### Singlylist.h
 ```C++
 #ifndef SINGLYLIST_H_INCLUDED
 #define SINGLYLIST_H_INCLUDED
@@ -714,7 +714,7 @@ int sumInfo(List L);
 #endif
 ```
 
-## Singlylist.cpp
+### Singlylist.cpp
 ```C++
 #include "Singlylist.h"
 
@@ -772,7 +772,7 @@ int sumInfo(List L) {
 }
 ```
 
-## main.cpp
+### main.cpp
 ```C++
 #include "Singlylist.h"
 
